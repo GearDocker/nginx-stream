@@ -3,7 +3,7 @@ MAINTAINER Gary Leong <gwleong@gmail.com>
 
 RUN apt-get update -y && apt-get install wget -y
 
-ADD install_geolocat.sh /var/tmp/
-RUN /var/tmp/install_geolocat.sh
+#ADD install_geolocat.sh /var/tmp/
+#RUN /var/tmp/install_geolocat.sh
 
 RUN rm -rf /etc/nginx/sites-enabled/*
